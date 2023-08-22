@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://44.203.55.100:9000/</sonar.host.url>
+		<sonar.host.url>http://52.207.254.59:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin123</sonar.password> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://34.239.106.214:8081/repository/Hari-release/</url>
+	      <url>http://3.92.223.176:8081/repository/Hari-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://34.239.106.214:8081/repository/Hari-snapshot/</url>
+	      <url>http://3.92.223.176:8081/repository/Hari-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
