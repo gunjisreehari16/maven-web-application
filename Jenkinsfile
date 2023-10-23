@@ -19,7 +19,7 @@ pipeline {
         stage("docker build "){
             steps {
                 script {
-                    sh "docker build -t gsreehari/mavenapp:6 ."
+                    sh "docker build -t gsreehari/hariappmav:6 ."
                 }
             }
         }
@@ -34,7 +34,7 @@ pipeline {
     stage("docker push"){
         steps {
             script {
-                sh "docker push gsreehari/mavenapp:1"
+                sh "docker push gsreehari/hariappmav:6"
             }
         }
     }
