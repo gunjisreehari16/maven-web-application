@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://44.202.230.191:8081/repository/Hari-release/</url>
+	      <url>http://3.110.103.26:8081/repository/hari-Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://44.202.230.191:8081/repository/Hari-snapshot/</url>
+	      <url>http://3.110.103.26:8081/repository/hari-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
